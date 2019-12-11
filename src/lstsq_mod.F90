@@ -1,9 +1,8 @@
 module lstsq_mod
 
-    use flab_kinds_mod, only : sp, dp, ip
+    use kinds_mod,      only : sp, dp, ip
     use rtn_info_mod,   only : rtn_info_t, on_error
     implicit none
-
     private
 
     public lstsq, rtn_info_t

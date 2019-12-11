@@ -10,12 +10,12 @@ add_global_arguments(['-cpp'], language : 'fortran')
 lapack = dependency('lapack')
 
 fmain_sources = [ 
-    'src/main.f90', 
+    'src/kinds_mod.f90',
+    'src/rtn_info_mod.f90',
     'src/poly1d_mod.F90',
     'src/lstsq_mod.F90', 
     'src/array_create_mod.F90',
-    'src/rtn_info_mod.f90',
-    'src/flab_kinds_mod.f90',
+    'src/main.f90', 
     ]
 executable('fmain', fmain_sources, dependencies : [lapack])
 

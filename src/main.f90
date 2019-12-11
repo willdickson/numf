@@ -1,10 +1,10 @@
 program test_lapack
 
-    use flab_kinds_mod, only : sp, dp, ip
-    use rtn_info_mod, only : rtn_info_t, on_error
-    use lstsq_mod, only : lstsq
-    use array_create_mod, only : logspace
-    use poly1d_mod, only : polyfit
+    use kinds_mod,         only : sp, dp, ip
+    use rtn_info_mod,      only : rtn_info_t, on_error
+    use lstsq_mod,         only : lstsq
+    use array_create_mod,  only : logspace
+    use poly1d_mod,        only : polyfit
 
     implicit none
 

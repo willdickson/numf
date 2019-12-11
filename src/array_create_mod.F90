@@ -1,6 +1,6 @@
 module array_create_mod
 
-    use flab_kinds_mod, only : sp, dp, ip
+    use kinds_mod, only : sp, dp, ip
     implicit none
     private
 

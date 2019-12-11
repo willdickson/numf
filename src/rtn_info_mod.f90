@@ -1,8 +1,8 @@
 module rtn_info_mod
 
-    use flab_kinds_mod, only : ip
-    implicit none
+    use kinds_mod, only : ip
 
+    implicit none
     private
 
     public rtn_info_t, on_error

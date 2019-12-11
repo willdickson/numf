@@ -1,8 +1,8 @@
 module poly1d_mod
 
-    use flab_kinds_mod, only : sp, dp, ip
+    use kinds_mod,      only : sp, dp, ip
     use rtn_info_mod,   only : rtn_info_t, on_error
-    use lstsq_mod, only : lstsq
+    use lstsq_mod,      only : lstsq
 
     implicit none
     private
