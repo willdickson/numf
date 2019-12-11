@@ -1,4 +1,9 @@
 ! logspace.inc
+!
+! function logspace(a, b, n, base) result(x)
+!     implicit none
+!     integer(kind=ip), parameter :: wp = sp
+! -------------------------------------------------------------------
 
 ! Arguments
 real(kind=wp), intent(in)            :: a
@@ -16,3 +21,6 @@ else
     base_val = base
 end if
 x = base_val**linspace(a,b,n)
+
+! -------------------------------------------------------------------
+! end function logspace

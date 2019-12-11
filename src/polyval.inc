@@ -1,6 +1,6 @@
 ! polyval.inc
 !
-! subroutine polyval_sp(x, y, coef, info) 
+! subroutine polyval(x, y, coef, info) 
 !    implicit none
 !    integer(kind=ip), parameter :: wp = sp or wp = dp
 !
@@ -55,4 +55,4 @@
     end if
 
 ! ---------------------------------------------------------------------------------------
-! end subroutine polyval_sp
+! end subroutine polyval

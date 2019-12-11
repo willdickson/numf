@@ -1,6 +1,6 @@
 ! polyfit.inc
 !
-! subroutine polyfit_sp(x, y, coef, info) 
+! subroutine polyfit(x, y, coef, info) 
 !    implicit none
 !    integer(kind=ip), parameter :: wp = sp or wp=dp
 !
@@ -50,4 +50,4 @@
     call lstsq(a,y,coef,info)
 
 ! ---------------------------------------------------------------------------------------
-! end subroutine polyfit_sp
+! end subroutine polyfit
